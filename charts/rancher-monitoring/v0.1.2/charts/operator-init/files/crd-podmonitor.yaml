@@ -172,6 +172,7 @@ spec:
                     description: Timeout after which the scrape is ended
                     type: string
                   targetPort:
+                    x-kubernetes-int-or-string: true
                     anyOf:
                     - type: string
                     - type: integer
